@@ -1,0 +1,12 @@
+[user]
+	name = Bianca Reis
+	email = bia.rbras@hotmail.com
+[alias]
+	br = branch
+	co = checkout
+	df = diff
+	dfc = diff --cached
+	lo = log --oneline
+	st = status
+[core]
+	editor = vim
