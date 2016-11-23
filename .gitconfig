@@ -3,10 +3,16 @@
 	email = bia.rbras@hotmail.com
 [alias]
 	br = branch
+	ci = commit -m
+	cia = commit --amend
+	cian = commit --amend --no-edit
 	co = checkout
 	df = diff
 	dfc = diff --cached
 	lo = log --oneline
+	sh = stash
+	shl = stash list
+	shp = stash pop
 	st = status
 [core]
 	editor = vim
