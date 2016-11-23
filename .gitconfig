@@ -16,3 +16,7 @@
 	st = status
 [core]
 	editor = vim
+[color "status"]
+	untracked = red
+	changed = blue
+	added = green
