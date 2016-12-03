@@ -1,0 +1,12 @@
+// apm list --installed --bare
+// apm install --packages-file atom-packages.txt
+
+atom-material-syntax-dark@0.2.5
+autoclose-html@0.23.0
+autocomplete-paths@1.0.2
+color-picker@2.2.3
+file-icons@1.7.25
+highlight-selected@0.11.2
+lipsum@0.1.0
+minimap@4.25.7
+pigments@0.37.0
