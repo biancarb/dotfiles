@@ -11,6 +11,7 @@
 	dfc = diff --cached
 	lo = log --oneline
 	sh = stash
+	shc = stash clear
 	shl = stash list
 	shp = stash pop
 	st = status
