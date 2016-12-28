@@ -1,5 +1,7 @@
 # Terminal
-alias ..="cd .."
+alias .="cd .."
+alias ..="cd ../.."
+alias ...="cd ../../.."
 alias clr="clear"
 alias eclipse="cd ~/eclipse && ./eclipse &"
 alias cdcw="cd ~/Documents/workspace/caelumweb2/"
