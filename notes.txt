@@ -51,14 +51,6 @@ cdcw
 ./hsqldb-console.sh
 
 
-****** Atualizar MySQL da máquina com dump.sql ******
-mysql -u root
-drop database caelumweb2;
-create database caelumweb2;
-exit
-mysql -u root caelumweb2 < dump.sql
-
-
 ****** Mudar senha do usuário para "mudar123" ******
 mysql -u root
 use homolog;
@@ -69,3 +61,19 @@ update Usuario set senha = '14d777febb71c53630e9e843bedbd4d8' where login = 'cam
 service jetty_homolog stop
 service jetty_homolog start
 
+
+****** Atualizar MySQL da máquina com dump.sql ******
+mysql -u root
+drop database caelumweb2;
+create database caelumweb2;
+exit
+mysql -u root caelumweb2 < dump.sql
+
+alias mysqldump='mysql -u root -e "drop database caelumweb2; create database caelumweb2;" && mysql -u root caelumweb2 < d ~/Documents/dump.sql && mysql -u root < ~/Documents/mysqlconfig.sql'
+
+
+****** Gerar dump ******
+mysqldump -u homologacao homolog > dump_19dez2016.sql
+
+Para transferir o dump da máquina de homolog para a minha:
+sudo scp -i ~/Documents/workspace/caelumweb2/build/deploy/aws/caelumweb_ec2.pem homolog@52.45.137.19:dump_19dez2016.sql ~/Documents
