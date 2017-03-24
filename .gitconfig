@@ -10,7 +10,16 @@
 	df = diff
 	dfc = diff --cached
 	lo = log --oneline
+	mg = merge
+	pl = pull
+	plom = pull origin master --rebase
+	ps = push
+	psom = push origin master
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
 	rs = reset
+	rv = revert
 	sh = stash
 	shc = stash clear
 	shl = stash list
