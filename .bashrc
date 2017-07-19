@@ -2,9 +2,12 @@
 alias .="cd .."
 alias ..="cd ../.."
 alias ...="cd ../../.."
-alias cdw="cd ~/Documents/workspace"
 alias clr="clear"
-alias mysql="mysql -u root"
+alias cdc="cd C:/"
+alias cdd="cd D:/"
+alias cdw="cd ~/Documents/workspace"
+alias cdx="cd C:/xampp/htdocs"
+alias mysqlur="mysql -u root"
 
 # Git
 alias glog="git log --oneline --graph --decorate"
