@@ -1,6 +1,6 @@
 [user]
 	name = Bianca Reis
-	email = bia.rbras@hotmail.com
+	email = hello@biancarb.com
 [alias]
 	br = branch
 	ci = commit -m
@@ -19,6 +19,7 @@
 	rba = rebase --abort
 	rbc = rebase --continue
 	rs = reset
+	rsh = reset --hard
 	rv = revert
 	sh = stash
 	shc = stash clear
