@@ -5,9 +5,10 @@ alias ...="cd ../../.."
 alias clr="clear"
 alias cdc="cd C:/"
 alias cdd="cd D:/"
-alias cdw="cd D:/workspace"
-alias cdu="cd D:/UNIT9"
-alias cdx="cd C:/xampp/htdocs"
+alias cde="cd E:/"
+alias cdw="cd E:/Workspace"
+alias cdu="cd E:/UNIT9"
+alias cdx="cd E:/xampp/htdocs"
 alias mysqlur="mysql -u root"
 
 # Git
