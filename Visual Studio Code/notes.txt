@@ -1,0 +1,8 @@
+Path: C:\Users\Bia\AppData\Roaming\Code\User
+
+Extensions:
+Eclipse Keymap
+Darcula Theme
+ESLint
+EditorConfig for VS Code
+vscode-styled-components
