@@ -9,7 +9,8 @@ alias cde="cd E:/"
 alias cdw="cd E:/Workspace"
 alias cdu="cd E:/UNIT9"
 alias cdx="cd E:/xampp/htdocs"
-alias mysqlur="mysql -u root"
+alias mysqlu="mysql -u root"
+alias mysqlup="mysql -u root -p"
 
 # Git
 alias glog="git log --oneline --graph --decorate"
