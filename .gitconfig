@@ -12,8 +12,10 @@
 	lo = log --oneline
 	mg = merge
 	pl = pull
+	plod = pull origin develop --rebase
 	plom = pull origin master --rebase
 	ps = push
+	psod = push origin develop
 	psom = push origin master
 	rb = rebase
 	rba = rebase --abort
