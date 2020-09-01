@@ -9,6 +9,8 @@ alias cde="cd E:/"
 alias cdw="cd E:/Workspace"
 alias cdu="cd E:/UNIT9"
 alias cdx="cd E:/xampp/htdocs"
+
+# MySQL
 alias mysqlu="mysql -u root"
 alias mysqlup="mysql -u root -p"
 
@@ -16,3 +18,5 @@ alias mysqlup="mysql -u root -p"
 alias glog="git log --oneline --graph --decorate"
 alias workrebase="git checkout master && git pull origin master && git checkout work && git rebase master"
 alias worksync="workrebase && git checkout master && git merge work && git push origin master && git checkout work"
+alias devpull="git checkout develop && git pull origin develop --rebase"
+alias devrebase="git rebase develop"
