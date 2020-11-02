@@ -34,3 +34,5 @@
 	untracked = red
 	changed = blue
 	added = green
+[pager]
+	branch = false
