@@ -126,8 +126,8 @@ alias mysqlup="mysql -u root -p"
 alias glog="git log --oneline --graph --decorate"
 alias workrebase="git checkout master && git pull origin master && git checkout work && git rebase master"
 alias worksync="workrebase && git checkout master && git merge work && git push origin master && git checkout work"
-alias devpull="git checkout develop && git pull origin develop --rebase"
-alias devrebase="git rebase develop"
+alias devpl="git checkout develop && git pull origin develop --rebase"
+alias devrb="git rebase develop"
 
 # Python
 export PYTHON="$(which python2.7)"
