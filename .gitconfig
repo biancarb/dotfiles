@@ -13,10 +13,10 @@
 	mg = merge
 	pl = pull
 	plod = pull origin develop --rebase
-	plom = pull origin master --rebase
+	plom = pull origin main --rebase
 	ps = push
 	psod = push origin develop
-	psom = push origin master
+	psom = push origin main
 	rb = rebase
 	rba = rebase --abort
 	rbc = rebase --continue
