@@ -117,6 +117,7 @@ alias cde="cd /mnt/e"
 alias cdh="cd ~"
 alias cdw="cd ~/Workspace"
 alias cdu="cd ~/UNIT9"
+alias cdwi="cd ~/Wild"
 
 # MySQL
 alias mysqlu="mysql -u root"
