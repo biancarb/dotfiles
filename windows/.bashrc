@@ -9,6 +9,7 @@ alias cde="cd E:/"
 alias cdw="cd E:/Workspace"
 alias cdu="cd E:/UNIT9"
 alias cd14="cd E:/14islands"
+alias cdwi="cd E:/Wild"
 alias cdx="cd E:/xampp/htdocs"
 
 # MySQL
