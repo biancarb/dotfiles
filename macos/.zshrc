@@ -123,6 +123,7 @@ alias cdh="cd ~"
 alias cdw="cd ~/Documents/Workspace"
 alias cdu="cd ~/Documents/UNIT9"
 alias cd14="cd ~/Documents/14islands"
+alias cd14="cd ~/Documents/Wild"
 
 # Git
 alias glog="git log --oneline --graph --decorate"
@@ -139,3 +140,6 @@ prompt_context() {
   #   prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   # fi
 }
+
+# Recognize brew command
+export PATH=/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/iTerm.app/Contents/Resources/utilities
