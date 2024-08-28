@@ -123,7 +123,7 @@ alias cdh="cd ~"
 alias cdw="cd ~/Documents/Workspace"
 alias cdu="cd ~/Documents/UNIT9"
 alias cd14="cd ~/Documents/14islands"
-alias cd14="cd ~/Documents/Wild"
+alias cdwi="cd ~/Documents/Wild"
 
 # Git
 alias glog="git log --oneline --graph --decorate"
