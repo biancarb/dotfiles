@@ -11,6 +11,8 @@
 	dfc = diff --cached
 	lo = log --oneline
 	mg = merge
+	mga = merge --abort
+	mgc = merge --continue
 	pl = pull
 	plod = pull origin develop --rebase
 	plom = pull origin main --rebase
@@ -30,6 +32,7 @@
 	st = status
 [core]
 	editor = vim
+	autocrlf = false
 [color "status"]
 	untracked = red
 	changed = blue

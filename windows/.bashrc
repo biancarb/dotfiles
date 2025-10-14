@@ -6,10 +6,7 @@ alias clr="clear"
 alias cdc="cd C:/"
 alias cdd="cd D:/"
 alias cde="cd E:/"
-alias cdw="cd E:/Workspace"
-alias cdu="cd E:/UNIT9"
-alias cd14="cd E:/14islands"
-alias cdwi="cd E:/Wild"
+alias cdw="cd E:/Work"
 alias cdx="cd E:/xampp/htdocs"
 
 # MySQL
@@ -18,14 +15,16 @@ alias mysqlup="mysql -u root -p"
 
 # Git
 alias glog="git log --oneline --graph --decorate"
-alias workrebase="git checkout master && git pull origin master && git checkout work && git rebase master"
-alias worksync="workrebase && git checkout master && git merge work && git push origin master && git checkout work"
-alias devps="git checkout develop && git push origin develop"
-alias devpl="git checkout develop && git pull origin develop --rebase"
-alias devrb="git rebase develop"
+alias dps="git checkout develop && git push origin develop"
+alias dpl="git checkout develop && git pull origin develop --rebase"
+alias drb="git rebase develop"
 alias mps="git checkout main && git push origin main"
 alias mpl="git checkout main && git pull origin main --rebase"
 alias mrb="git rebase main"
+alias aws="/e/Programas/Amazon/AWSCLIV2/aws.exe"
+
+alias gre="git config --global user.name 'Renan Alonso' && git config --global user.email 'renan.alonso91@gmail.com'"
+alias gbia="git config --global user.name 'Bianca Reis' && git config --global user.email 'hello@biancarb.com'"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
